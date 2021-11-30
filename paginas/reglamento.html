@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../styles/inicio.css">
+	<link rel="icon favicon" href="../imagenes/logo.jpg">
+	<title>COBACH 145</title>
+</head>
+<body>
+	<!-- Contenido de la  Pagina -->
+	<div class="cabecera">
+		<div class="menu">
+			<a href="../index.html" class="logo">
+				<img src="../imagenes/logoa.jpg.crdownload" alt="logo COBACH 145" class="logo-imagen">
+				<div class="logo-texto">
+					<span class="logo-titulo">COBACH 145</span><br>
+					<span class="logo-subtitulo">Tuxtla Sur</span>
+				</div>				
+			</a>
+			<div class="enlaces" id="menu1">
+				<div class="menu-enlaces" onclick="mostrarSubmenu(0)">
+					<p class="menu-link grupo-enlaces">Sobre Nosotros <span class="icon-enlace">+</span></p>			 
+					<div class="submenu-enlaces">
+						<a href="organigrama.html" class="submenu-link">Organigrama</a>
+						<a href="reglamento.html" class="submenu-link">Reglamento</a>
+						<a href="calendario.html" class="submenu-link">Calendario Escolar</a>
+						<a href="himno.html" class="submenu-link">Himno COBACH</a>
+					</div>
+				</div>
+				<div class="menu-enlaces" onclick="mostrarSubmenu(1)">
+					<p class="menu-link grupo-enlaces">Oferta Educativa <span class="icon-enlace">+</span></p>
+					<div class="submenu-enlaces">
+						<a href="capacitaciones.html" class="submenu-link">Capacitaciones</a>
+						<a href="materias.html" class="submenu-link">Materias</a>
+					</div>
+				</div>
+				<a href="docentes.html" class="menu-link">Docentes</a>
+				<a href="eventos.html" class="menu-link">Eventos</a>
+				<!-- <div class="menu-enlaces" onclick="mostrarSubmenu(1)">
+					<p class="menu-link grupo-enlaces">Grupo #2 <span class="icon-enlace">+</span></p>
+					<div class="submenu-enlaces">
+						<a href="#" class="submenu-link">SubEnlace #1</a>
+						<a href="#" class="submenu-link">SubEnlace #2</a>
+						<a href="#" class="submenu-link">SubEnlace #3</a>
+						<a href="#" class="submenu-link">SubEnlace #4</a>
+					</div>
+				</div> -->
+			</div>
+			<div class="menu-logo" onclick="menuHamburguesa()">
+				<div class="menu-icono"></div>
+				<div class="menu-icono"></div>
+				<div class="menu-icono"></div>
+			</div>
+		</div>  
+	</div>
+
+	<div class="contenido-nuevo">
+		<h2 class="contenido-titulo">Reglamento Escolar</h2>
+		<iframe src="../imagenes/reglamento.pdf" frameborder="1" width="80%" height="800"></iframe>
+	</div>
+
+	<div class="pie">
+		<div class="pie-contenido">
+			<div class="pie-contenido-enlaces">
+				<h2 class="pie-contenido-enlaces-titulo">Enlaces a Redes</h2>
+				<a href="http://www.145tuxtlasur.edu.mx/" class="pie-contenido-enlaces-link">Pagina Web</a>
+				<a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwip5PWexcD0AhW4nGoFHXq8BqkQFnoECAcQAQ&url=https%3A%2F%2Fwww.facebook.com%2FColegio-de-Bachilleres-de-Chiapas-1496307354002730%2F&usg=AOvVaw087dI0qH1kVs2mD87RjWJz" class="pie-contenido-enlaces-link">Facebook<a>
+				<a href="https://twitter.com/cobachchiapas?ref_src=twsrc%5Etfw" class="pie-contenido-enlaces-link">Twitter</a>
+				<a href="https://www.cobach.edu.mx/" class="pie-contenido-enlaces-link">Chiapas.Gob</a>
+			</div>
+			<hr class="espacio"> 
+			<div class="pie-contenido-info">
+				<h2 class="pie-contenido-info-titulo">Pagina Escolar</h2>
+				<p class="pie-contenido-info-texto">El Colegio Bachilleres de Chiapas es una institucion educativa que busca formar estudiantes de manera profesionar y progresiva.</p>
+			</div>
+		</div>
+		<div class="pie-copy">
+			<p class="pie-copy-texto">Derechos Reservados</p>
+		</div>
+	</div>
+	<script src="../scripts/inicio.js"></script>
+</body>
+</html> 
